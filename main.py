@@ -1,6 +1,10 @@
 import os
 import json
+import textwrap
 
+def line():
+    print("=" * 50)
+    
 def clear_screen():
     os.system("cls" if os.name == "nt" else "clear")
     
@@ -69,13 +73,21 @@ def search(search_input):
     
     for key, card in cards.items():
         if search_input in key or search_input in card["jpn_name"].lower():
-            print("\n-------------------------")
-            print("English Name:", card["eng_name"])
-            print("Japanese Name:", card["jpn_name"])
-            print("Mana cost:", card["mana_cost"])
-            print("Type:", card["card_type"])
-            print("Card Text:", card["oracle_text"])
-            print("-------------------------\n")
+            width = 50
+            print()
+            line()
+            print(f"{card["eng_name"]} | {card["jpn_name"]}")
+            print("-" * width)
+            print(f"Mana cost: {card["mana_cost"]}")
+            print(f"Type: {card["card_type"]}")
+            print()
+            
+            print("Card text:")
+            for paragraph in card["oracle_text"].split("\n"):
+                wrapped = textwrap.fill(paragraph, width=width)
+                print(wrapped)
+            line()         
+                
             found = True
     if not found:
         print("Card not found.\n")
@@ -85,14 +97,18 @@ def list_cards():
         print("No cards in database.")
         return
     
-    print("\n-----Card List-----")
+    line()
+    print("CARD LIST")
+    line()
     for card in sorted(cards.values(), key=lambda x: x["eng_name"]):
         print("-", card["eng_name"])
-    print("-------------------\n")
+    line()
 
 def main():
     clear_screen()
-    print("-----MAGIC THE GATHERING Quick Search Tool-----\n")
+    line()
+    print("MAGIC THE GATHERING Quick Search Tool")
+    line()
     while True:
         print("Choose and option:")
         print("1 - Search")
@@ -107,15 +123,19 @@ def main():
             break
         elif user_input == "1":
             card_search = input("Search: ")
+            clear_screen()
             search(card_search)
         elif user_input == "2":
+            clear_screen()
             add_card()
         elif user_input == "3":
+            clear_screen()
             delete_card()
         elif user_input == "4":
+            clear_screen()
             list_cards()
         else:
-            print("Invalid option. PLease select number from menu.")
+            print("Invalid option. Please select number from menu.")
         
         input("\nPress ENTER to continue.")
         clear_screen()
