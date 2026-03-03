@@ -17,22 +17,25 @@ def save_cards():
         json.dump(cards, file, ensure_ascii=False, indent=4)
         
 def add_card():
-    eng_name = input("English Name: ")
+    eng_name = input("English Name: ").strip()
     
-    if not eng_name.strip():
+    if not eng_name:
         print("English name cannot be empty.")
         return
-    
-    jpn_name = input("Japanese Name: ")
-    mana_cost = input("Mana Cost: ")
-    card_type = input("Card Type: ")
-    oracle_text = multiline_input("Enter Card text:")
     
     key = eng_name.lower()
     
     if key in cards:
-        print("This card already exists.")
+        print("A card with this name already exists:")
+        display_card(cards[key])
         return
+    
+    jpn_name = input("Japanese Name: ").strip()
+    mana_cost = input("Mana Cost: ").strip()
+    card_type = input("Card Type: ").strip()
+    oracle_text = multiline_input("Enter Card text:").strip()
+    
+    key = eng_name.lower()
     
     cards[key] = {
         "eng_name": eng_name,

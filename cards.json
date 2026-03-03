@@ -149,7 +149,7 @@
     "treno, dark city": {
         "eng_name": "Treno, Dark City",
         "jpn_name": "眠らない街、トレノ",
-        "mana_cost": "x",
+        "mana_cost": "-",
         "card_type": "Land - Town",
         "oracle_text": "This land enters tapped. Tap: Add U or B."
     },
@@ -317,7 +317,7 @@
     "rabanastre, royal city": {
         "eng_name": "Rabanastre, Royal City",
         "jpn_name": "王都ラバナスタ",
-        "mana_cost": "x",
+        "mana_cost": "-",
         "card_type": "Land - Town",
         "oracle_text": "Tap: Add R or W."
     },
@@ -327,5 +327,40 @@
         "mana_cost": "5BW",
         "card_type": "Legend",
         "oracle_text": "this is a test card.\n\nthis is a test card \"test\""
+    },
+    "miku, the renowned": {
+        "eng_name": "Miku, the Renowned",
+        "jpn_name": "鳴り響く名、ミク",
+        "mana_cost": "RWW",
+        "card_type": "Legendary Creature - Angel",
+        "oracle_text": "Flying\n\nWhenever you cast an instant or sorcery spell that targets a creature you control, exile that card instead of putting it into your graveyard as it resolves. If you do, return it to your hand at the beginning of the next end step.\n\n('Feather, the Redeemed')"
+    },
+    "aurelia's fury": {
+        "eng_name": "Aurelia's Fury",
+        "jpn_name": "オレリアの憤怒",
+        "mana_cost": "XRW",
+        "card_type": "Instant",
+        "oracle_text": "Aurelia's Fury deals X damage divided as you choose among any number of tarets. Tap each creature dealt damage this way. Players dealt damage this way can't cast noncreature spells this turn."
+    },
+    "aurelia, the warleader": {
+        "eng_name": "Aurelia, the Warleader",
+        "jpn_name": "戦導者オレリア",
+        "mana_cost": "2RRWW",
+        "card_type": "Legendary Creature - Angel",
+        "oracle_text": "Flying, vigilance, haste\n\nWhen Aurelia attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase."
+    },
+    "miku's spark": {
+        "eng_name": "Miku's Spark",
+        "jpn_name": "ミクの閃光",
+        "mana_cost": "3RR",
+        "card_type": "Sorcery",
+        "oracle_text": "Target creature you control deals damage equal to its power to each other creature and each opponent.\n\n('Chandra's Ignition')"
+    },
+    "command tower": {
+        "eng_name": "Command Tower",
+        "jpn_name": "統率の塔",
+        "mana_cost": "-",
+        "card_type": "Land",
+        "oracle_text": "Tap: Add one mana of any color in your commander's color identity."
     }
 }
