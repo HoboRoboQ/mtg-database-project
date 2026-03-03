@@ -11,14 +11,14 @@
         "jpn_name": "ブリッツボール",
         "mana_cost": "5",
         "card_type": "Artifact",
-        "oracle_text": "TAP: Add one mana of any color. GOOOOAAAALLL! - TAP, Sacrifice this artifact: Draw two cards. Activate only if an opponent was dealt combat damage by a legendary creature this turn."
+        "oracle_text": "TAP: Add one mana of any color.\n\nGOOOOAAAALLL! - TAP, Sacrifice this artifact: Draw two cards. Activate only if an opponent was dealt combat damage by a legendary creature this turn."
     },
     "prompto argentum": {
         "eng_name": "Prompto Argentum",
         "jpn_name": "プロンプト・アージェンタム",
         "mana_cost": "1R",
         "card_type": "Legendary Creature - Human Scout",
-        "oracle_text": "Haste Selfie Shot - Whenever you cast a noncreature spell, if at least four mana was spent to cast it, create a Treasure token."
+        "oracle_text": "Haste\n\nSelfie Shot - Whenever you cast a noncreature spell, if at least four mana was spent to cast it, create a Treasure token."
     },
     "sephiroth, planet's heir": {
         "eng_name": "Sephiroth, Planet's Heir",
@@ -67,7 +67,7 @@
         "jpn_name": "マジテックサイズ",
         "mana_cost": "4",
         "card_type": "Artifact - Equipment",
-        "oracle_text": "A test of your reflexes! - When this Equipment enters, you may attach it to target creature you control. If you do, that creature gains first strike until end of turn and must be blocked this turn if able. Equipped creature gets +2/+1. Equip 2"
+        "oracle_text": "A test of your reflexes! - When this Equipment enters, you may attach it to target creature you control. If you do, that creature gains first strike until end of turn and must be blocked this turn if able.\n\nEquipped creature gets +2/+1.\n\nEquip 2 mana"
     },
     "sahagin": {
         "eng_name": "Sahagin",
@@ -95,7 +95,7 @@
         "jpn_name": "よろめくシ骸",
         "mana_cost": "2B",
         "card_type": "Creature - Mutant Horror",
-        "oracle_text": "This creature enters tapped. Whenever you cast a noncreature spell, you may pay B. If you do, return this card from your graveyard to your hand."
+        "oracle_text": "This creature enters tapped.\n\nWhenever you cast a noncreature spell, you may pay B. If you do, return this card from your graveyard to your hand."
     },
     "al bhed salvagers": {
         "eng_name": "Al Bheg Salvagers",
@@ -109,7 +109,7 @@
         "jpn_name": "幻獣を奪取せよ",
         "mana_cost": "3U",
         "card_type": "Sorcery",
-        "oracle_text": "Create a 3/3 blue Robot Warrior artifact creature token. Then, if this spell was cast from the graveyard, put two +1/+1 counters on that token. Flashback 5U (You may cast this card from your graveyard for it's flashback cost. Then exile it.)"
+        "oracle_text": "Create a 3/3 blue Robot Warrior artifact creature token. Then, if this spell was cast from the graveyard, put two +1/+1 counters on that token.\n\nFlashback 5U (You may cast this card from your graveyard for it's flashback cost. Then exile it.)"
     },
     "relm's sketching": {
         "eng_name": "Relm's Sketching",
@@ -130,7 +130,7 @@
         "jpn_name": "ラグナの記憶",
         "mana_cost": "1U",
         "card_type": "Instant",
-        "oracle_text": "Surveil 1, then draw a card. (To surveil 1, look at the top card of your library. You may put it into your graveyard.) Flashback 3U (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
+        "oracle_text": "Surveil 1, then draw a card. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)\n\nFlashback 3U (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
     },
     "sephiroth's intervention": {
         "eng_name": "Sephiroth's Intervention",
@@ -158,21 +158,21 @@
         "jpn_name": "星の勇者、クラウド",
         "mana_cost": "3RW",
         "card_type": "Legendary Creature - Human Soldier Mercenary",
-        "oracle_text": "During your turn, as long as Cloud is equipped, it has double strike and indestructible. (This creature deals both first-strike and regular combat damage. Damage and effects that say 'destroy' don't destroy this creature.) Equip abilities you activate that target cloud cost 2 mana less to activate."
+        "oracle_text": "During your turn, as long as Cloud is equipped, it has double strike and indestructible. (This creature deals both first-strike and regular combat damage. Damage and effects that say 'destroy' don't destroy this creature.)\n\nEquip abilities you activate that target cloud cost 2 mana less to activate."
     },
     "beatrix, loyal general": {
         "eng_name": "Beatrix, Loyal General",
         "jpn_name": "忠実なる将軍、ベアトリクス",
         "mana_cost": "4WW",
         "card_type": "Legendry Creature - HUman Soldier",
-        "oracle_text": "Vigilance (Attacking doesn't cause this creature to tap.) At the beginning of combat on your turn, you may attach any number of Equipment you control to target creature you control."
+        "oracle_text": "Vigilance (Attacking doesn't cause this creature to tap.)\n\nAt the beginning of combat on your turn, you may attach any number of Equipment you control to target creature you control."
     },
     "rosa, resolute white mage": {
         "eng_name": "Rosa, Resolute White Mage",
         "jpn_name": "強き愛の白魔道士、ローザ",
         "mana_cost": "3W",
         "card_type": "Legendary Creature - Human Noble Cleric",
-        "oracle_text": "Reach (This creature can block creatures with flying.) At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. It gains lifelink until end of turn. (Damage dealt by the creature also causes you to gain that much life.)"
+        "oracle_text": "Reach (This creature can block creatures with flying.)\n\nAt the beginning of combat on your turn, put a +1/+1 counter on target creature you control. It gains lifelink until end of turn. (Damage dealt by the creature also causes you to gain that much life.)"
     },
     "judgement bolt": {
         "eng_name": "Judgement Bolt",
@@ -186,21 +186,21 @@
         "jpn_name": "刃向かう者、ライトニング",
         "mana_cost": "2R",
         "card_type": "Legendary Creature - Human Soldier",
-        "oracle_text": "Menace Whenever Lightning deals combat damage to a player, exile the top card for as long as you control Lightning."
+        "oracle_text": "Menace\n\nWhenever Lightning deals combat damage to a player, exile the top card for as long as you control Lightning."
     },
     "ultima weapon": {
         "eng_name": "Ultima Weapon",
         "jpn_name": "アルテマウェポン",
         "mana_cost": "7",
         "card_type": "Legendary Artifact - Equipment",
-        "oracle_text": "Whenever equipped creature attacks, destroy target creature an opponent controls. Equipped creature gets +7/+7. Equip 7 mana."
+        "oracle_text": "Whenever equipped creature attacks, destroy target creature an opponent controls. \n\nquipped creature gets +7/+7.\n\nEquip 7 mana."
     },
     "cloudbound moogle": {
         "eng_name": "Cloudbound Moogle",
         "jpn_name": "雲海のモーグリ族",
         "mana_cost": "3WW",
         "card_type": "Creature - Moogle",
-        "oracle_text": "Flying When this creature enters, put a +1/+1 counter on target creature. Plaincycling 2 mana (2 mana, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)"
+        "oracle_text": "Flying\n\nWhen this creature enters, put a +1/+1 counter on target creature.\n\nPlaincycling 2 mana (2 mana, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)"
     },
     "coeurl": {
         "eng_name": "Coeurl",
@@ -221,14 +221,14 @@
         "jpn_name": "プルート隊隊長、スタイナー",
         "mana_cost": "1W",
         "card_type": "Legendary Creature - Human Knight",
-        "oracle_text": "Lifelink Adelbert Steiner gets +1/+1 for each Equipment you control."
+        "oracle_text": "Lifelink\n\nAdelbert Steiner gets +1/+1 for each Equipment you control."
     },
     "g'raha tia": {
         "eng_name": "G'raha Tia",
         "jpn_name": "グ・ラハ・ティア",
         "mana_cost": "4W",
         "card_type": "Legendary Creature - Cat Archer",
-        "oracle_text": "Reach The Allagan Eye - Whenever one or more other creatures and/or artifacts you control die, draw a card. This ability triggers only once each turn."
+        "oracle_text": "Reach\n\nThe Allagan Eye - Whenever one or more other creatures and/or artifacts you control die, draw a card. This ability triggers only once each turn."
     },
     "item shopkeep": {
         "eng_name": "Item Shopkeep",
@@ -242,63 +242,63 @@
         "jpn_name": "ブルメシアの竜騎士、フライヤ",
         "mana_cost": "R",
         "card_type": "Legendary Creature - Rat Knight",
-        "oracle_text": "Jump - During your turn, Freya Crescent has flying. Tap: Add R. Spend this mana only to cast an Equipment spell or activate an equip ability."
+        "oracle_text": "Jump - During your turn, Freya Crescent has flying.\n\nTap: Add R. Spend this mana only to cast an Equipment spell or activate an equip ability."
     },
     "barret wallace": {
         "eng_name": "Barret Wallace",
         "jpn_name": "バレット・ウォーレス",
         "mana_cost": "3R",
         "card_type": "Legendary Creature - Human Rebel",
-        "oracle_text": "Reach Whenever Barret Wallace attacks, it deals damage equal to the number of equipped creatures you control to defending player. "
+        "oracle_text": "Reach\n\nWhenever Barret Wallace attacks, it deals damage equal to the number of equipped creatures you control to defending player. "
     },
     "fate of the sun-cryst": {
         "eng_name": "Fate of the Sun-Cryst",
         "jpn_name": "天陽の繭の最期",
         "mana_cost": "4W",
         "card_type": "Instant",
-        "oracle_text": "This spell costs 2 mana less to cast if it targets a tapped creature. Destroy target nonland permanent."
+        "oracle_text": "This spell costs 2 mana less to cast if it targets a tapped creature.\n\nDestroy target nonland permanent."
     },
     "slash of light": {
         "eng_name": "Slash of Light",
         "jpn_name": "光の一閃",
         "mana_cost": "1W",
         "card_type": "Instant",
-        "oracle_text": "SLash of Light deals damage equal to the number of creatures you control plus the number of Equipment you control to target creature."
+        "oracle_text": "Slash of Light deals damage equal to the number of creatures you control plus the number of Equipment you control to target creature."
     },
     "white auracite": {
         "eng_name": "White Auracite",
         "jpn_name": "白聖石",
         "mana_cost": "2WW",
         "card_type": "Artifact",
-        "oracle_text": "When this artifact enters, exile target nonland permanent an opponent controls until this artifact leaves the battlefield."
+        "oracle_text": "When this artifact enters, exile target nonland permanent an opponent controls until this artifact leaves the battlefield.\n\nTAP: Add W"
     },
     "white mage's staff": {
         "eng_name": "White Mage's Staff",
         "jpn_name": "白魔術士",
         "mana_cost": "1W",
         "card_type": "Artifact - Equipment",
-        "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.) Equipped creatures get +1/+1, has 'Whenever this creature attacks, you gain 1 life,' and is a Cleric in addition to its other types. Equip 3 mana (3 mana: Attach to target creature you control. Equip only as sorcery.)"
+        "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\n\nEquipped creatures get +1/+1, has 'Whenever this creature attacks, you gain 1 life,' and is a Cleric in addition to its other types.\n\nEquip 3 mana (3 mana: Attach to target creature you control. Equip only as sorcery.)"
     },
     "dragoon's lance": {
         "eng_name": "Dragoon's Lance",
         "jpn_name": "「竜騎士」の両手槍",
         "mana_cost": "1W",
         "card_type": "Artifact - Equipment",
-        "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.) Equipped creatures get +1/+0 and is a Knight in addition to its other types. During your turn, equipped creature has flying. Gae Bolg - Equip 4 mana"
+        "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.) \n\nquipped creatures get +1/+0 and is a Knight in addition to its other types.\n\nDuring your turn, equipped creature has flying.\n\nGae Bolg - Equip 4 mana"
     },
     "warrior's sword": {
         "eng_name": "Warrior's Sword",
         "jpn_name": "「戦士」の剣",
         "mana_cost": "3R",
         "card_type": "Artifact - Equipment",
-        "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.) Equipped creatures get +3/+2 and is a Warrior in addition to its other types. Equip 5 mana (5 mana: Attach to target creature you control. Equip only as sorcery.)"
+        "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\n\nEquipped creatures get +3/+2 and is a Warrior in addition to its other types.\n\nEquip 5 mana (5 mana: Attach to target creature you control. Equip only as sorcery.)"
     },
     "samurai's katana": {
         "eng_name": "Samurai's Katana",
         "jpn_name": "「侍」の刀",
         "mana_cost": "2R",
         "card_type": "Artifact - Equipment",
-        "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.) Equipped creatures get +2/+2, has trample and haste, and is a Samurai in addition to its other types. Murasame - Equip 5 mana"
+        "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\n\nEquipped creatures get +2/+2, has trample and haste, and is a Samurai in addition to its other types.\n\nMurasame - Equip 5 mana"
     },
     "the crystal's chosen ": {
         "eng_name": "The Crystal's Chosen",
@@ -312,7 +312,7 @@
         "jpn_name": "メテオストライク",
         "mana_cost": "1R",
         "card_type": "Sorcery",
-        "oracle_text": "Choose one - > Suplex deals 3 damage to target creature. if That Creature would die this turn, exile it instead. > Exile target artifact."
+        "oracle_text": "Choose one -\n\n> Suplex deals 3 damage to target creature. if That Creature would die this turn, exile it instead.\n\n> Exile target artifact."
     },
     "rabanastre, royal city": {
         "eng_name": "Rabanastre, Royal City",
@@ -340,7 +340,7 @@
         "jpn_name": "オレリアの憤怒",
         "mana_cost": "XRW",
         "card_type": "Instant",
-        "oracle_text": "Aurelia's Fury deals X damage divided as you choose among any number of tarets. Tap each creature dealt damage this way. Players dealt damage this way can't cast noncreature spells this turn."
+        "oracle_text": "Aurelia's Fury deals X damage divided as you choose among any number of targets. Tap each creature dealt damage this way. Players dealt damage this way can't cast noncreature spells this turn."
     },
     "aurelia, the warleader": {
         "eng_name": "Aurelia, the Warleader",
@@ -361,6 +361,6 @@
         "jpn_name": "統率の塔",
         "mana_cost": "-",
         "card_type": "Land",
-        "oracle_text": "Tap: Add one mana of any color in your commander's color identity."
+        "oracle_text": "TAP: Add one mana of any color in your commander's color identity."
     }
 }
