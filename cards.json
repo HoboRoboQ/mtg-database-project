@@ -362,5 +362,19 @@
         "mana_cost": "-",
         "card_type": "Land",
         "oracle_text": "TAP: Add one mana of any color in your commander's color identity."
+    },
+    "miku, queen electric": {
+        "eng_name": "Miku, Queen Electric",
+        "jpn_name": "電子の女王、ミク",
+        "mana_cost": "2WU",
+        "card_type": "Legendary Creature - Spirit Noble",
+        "oracle_text": "Flying\n\nWhenever Miku, Queen Electric deals combat damage to a player, exile any number of target nonland permanents you control, then return those cards to the battlefield under their owner's control.\n\n('Brago, King Eternal')"
+    },
+    "y'shtola, night's blessed": {
+        "eng_name": "Y'shtola, Night's Blessed",
+        "jpn_name": "魔女、ヤ・シュトラ・ルル",
+        "mana_cost": "1WUB",
+        "card_type": "Legendary Creature - Cat Warlock",
+        "oracle_text": "Vigilance\n\nAt the beginning of each end step, if a player lost 4 or more life this turn, you draw a card.\n\nWhenever you cast a noncreature spell with mana value 3 or greater, Y'shtola deals 2 damage to each opponent and you gain 2 life."
     }
 }
